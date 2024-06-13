@@ -20,7 +20,7 @@ def simular_caminata(pasos, numero_de_intentos,tipo_de_borracho):
         campo.anadir_borracho(borracho, origen)
         simulacion_caminata = caminata(campo,borracho,pasos)
         distancias.append(round(simulacion_caminata,1))
-    return distancias
+    return distancias 
 
 
 def graficar(x, y):
