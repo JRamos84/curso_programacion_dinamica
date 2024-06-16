@@ -5,7 +5,6 @@ def media(X):
 
 def varianza(X):
     mu = media(X)
-    
     acumulador = 0
     for x in X:
         acumulador += (x-mu)**2
